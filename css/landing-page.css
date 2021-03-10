@@ -117,8 +117,17 @@ header.masthead h2 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 15rem;
   background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .showcase .overlay {
