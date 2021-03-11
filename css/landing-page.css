@@ -85,21 +85,27 @@ header.masthead h2 {
   color: #F75986;
 }
 
+.colores{
+  color: #e8b987;
+  background-color: #87E89B;
+
+
+}
 
 .btn-nav:hover {
-  background-color: #7046e0;
+  background-color: #e8b987;
   color: #F75986;
 }
 
 .btn-nav:focus, .btn-nav.focus {
-  background-color: #7046e0;
+  background-color: #e8b987;
   color: #F75986;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 .btn-nav.disabled, .btn-nav:disabled {
   color: #F75986;
-  background-color: #7046e0;
+  background-color: #e8b987;
 }
 
 
