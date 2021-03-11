@@ -29,11 +29,14 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light static-top">
+  <nav class="navbar navbar-expand-md navbar-light static-top">
     <div class="container">
-      
-      <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png"></a>
-      <!--   a class="btn btn-primary" href="#">Sign In</a-->
+      <div class="col-md-10">
+        <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png"></a>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-nav" href="http://www.reluze.electric-save.com/solicitud_factura/1002/calcula-ahorro">Calcula tu ahorro</a>
+      </div>
     </div>
   </nav>
 
@@ -44,10 +47,39 @@
       <div class="row">
         <div class="col-xl-12 mx-auto">
           <h1 class="mb-5">Bienvenido a Reluze energía, la comercializadora del futuro en el presente. </h1>
-            
-            <h2 class="mb-5">Nace reluze energía, la comercializadora sostenible con la que podrás ahorrar! 
+            <h2 class="mb-5">
+              Nace reluze energía, la comercializadora sostenible con la que podrás ahorrar! 
               Creada únicamente para que todos paguemos menos por nuestras facturas.
-              Apúntate y te mantendremos informados de nuestro lanzamiento y novedades.</h2>
+            </h2>
+
+
+            <!--h2 class="mb-5">
+              Descubre cuanto puedes ahorrar con nosotros subiendo aquí tu factura.
+            </h2>
+
+             <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+
+                  <form method="post" action="#" id="#">
+                    <div class="form-group files color">
+                      
+                      <input type="file" class="form-control">
+
+                    </div>
+                    
+                    
+
+                    <button type="submit" class="btn btn-block btn-lg btn-cta">Subir!</button>
+                  </form>
+                  
+                </div>
+              </div>
+            </div-->
+
+            <h2 class="mb-5">
+              Apúntate y te mantendremos informados de nuestro lanzamiento y novedades.
+            </h2>
 
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -267,6 +299,16 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <script>
+    // Add the following code if you want the name of the file appear on select
+    $(".custom-file-input").on("change", function() {
+      var fileName = $(this).val().split("\\").pop();
+      $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+    </script>
+
 
 </body>
 

@@ -36,7 +36,6 @@ nav.navbar {
   }
 }
 
-
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -81,6 +80,31 @@ header.masthead h2 {
   }
 }
 
+.btn-nav{
+  background-color: #FFFAA0;
+  color: #F75986;
+}
+
+
+.btn-nav:hover {
+  background-color: #7046e0;
+  color: #F75986;
+}
+
+.btn-nav:focus, .btn-nav.focus {
+  background-color: #7046e0;
+  color: #F75986;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-nav.disabled, .btn-nav:disabled {
+  color: #F75986;
+  background-color: #7046e0;
+}
+
+
+
+
 .btn-cta{
   background-color: #7046e0;
   color: #FFFAA0;
@@ -110,6 +134,75 @@ header.masthead h2 {
 .icon-color {
   color: #F75986;
 }
+
+
+
+
+
+
+
+
+/*
+
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  padding: 120px 15% 85px 15%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+  
+  
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+}
+.files{ position:relative}
+
+
+.files:after {  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url("../img/icon_cloud2.png");
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+  
+}
+.color input{ 
+  background-color:#f1f1f1;
+}
+
+.files:before {
+  position: absolute;
+  bottom: 0px;
+  left: 0;  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: "Subir solo factura de luz completa";
+  display: block;
+  margin: 0 auto;
+  color: #F75986;
+  font-weight: 600;
+  text-align: center;
+  
+
+}
+ */
+
+
+
 
 
 .showcase .showcase-text {
