@@ -20,9 +20,10 @@ h6 {
 
 nav.navbar {
 
-  background-color: #F75986;
+  background-color: #fff;
   
 }
+
 
 .logo{
   height: 45%;
@@ -57,13 +58,13 @@ header.masthead .overlay {
 
 header.masthead h1 {
   font-size: 1.8rem;
-  color: #FFFAA0;
+  color: #fff;
 
 }
 
 header.masthead h2 {
   font-size: 1rem;
-  color: #FFFAA0;
+  color: #fff;
 
 }
 
@@ -81,60 +82,53 @@ header.masthead h2 {
 }
 
 .btn-nav{
-  background-color: #FFFAA0;
-  color: #F75986;
-}
-
-.colores{
-  color: #e8b987;
-  background-color: #87E89B;
-
-
+  background-color: #F75986;
+  color: #fff;
 }
 
 .btn-nav:hover {
-  background-color: #e8b987;
+  background-color: #fff;
   color: #F75986;
 }
 
 .btn-nav:focus, .btn-nav.focus {
-  background-color: #e8b987;
+  background-color: #fff;
   color: #F75986;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 .btn-nav.disabled, .btn-nav:disabled {
+  background-color: #fff;
   color: #F75986;
-  background-color: #e8b987;
 }
 
 
 
 
 .btn-cta{
-  background-color: #7046e0;
-  color: #FFFAA0;
+  background-color: #F75986;
+  color: #fff;
 }
 
 
 .btn-cta:hover {
-  background-color: #F75986;
-  color: #FFFAA0;
+  background-color: #fff;
+  color: #F75986;
 }
 
 .btn-cta:focus, .btn-cta.focus {
-  background-color: #F75986;
-  color: #FFFAA0;
+  background-color: #fff;
+  color: #F75986;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 .btn-cta.disabled, .btn-cta:disabled {
-  color: #fff;
-  background-color: #F75986;
+  background-color: #fff;
+  color: #F75986;
 }
 
 .text-yellow{
-  color: #FFFAA0;
+  color: #fff;
 }
 
 .icon-color {
@@ -210,6 +204,10 @@ header.masthead h2 {
 
 
 
+
+.showcase h2 {
+  color: #F75986;
+}
 
 .showcase .showcase-text {
   padding: 3rem;
